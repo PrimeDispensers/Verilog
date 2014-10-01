@@ -1,0 +1,13 @@
+|assess1
+A => G~0.IN0
+A => F~0.IN0
+B => G~0.IN1
+B => F~0.IN1
+C => G~1.IN0
+C => F~1.IN0
+D => G~2.IN0
+D => F~1.IN1
+F <= F~2.DB_MAX_OUTPUT_PORT_TYPE
+G <= G~2.DB_MAX_OUTPUT_PORT_TYPE
+
+
